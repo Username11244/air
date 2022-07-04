@@ -1,0 +1,109 @@
+.seach{
+  max-width: 100%;
+  margin: 0 auto;
+  color: white;
+  background-color: rgb(0, 132, 255);
+  padding: 100px;
+}
+
+h2{
+  text-align: center;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 815px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form-group{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+}
+
+.form-input{
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn-warning{
+  width: 200px;
+  height: 60px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+
+.flights{
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.flight{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  width: 730px;
+  height: 200px;
+  background-color: orange;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.l-side{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.r-side{
+  width: 530px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+  text-align: center;
+}
+
+.btn-primary{
+  width: 175px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.price{
+  font-size: 30px;
+}
+
+.to-time, .from-time{
+  font-size: 30px;
+}
+
+.seats{
+  font-size: 30px;
+}
+
+.info{
+  padding: 40px;
+}
+
+.table{
+  margin-top: 20px;
+}
+
+.link{
+  font-size: 30px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
